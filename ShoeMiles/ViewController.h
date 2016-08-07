@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Shoes.h"
 
 @interface ViewController : UIViewController
+
+
+@property (weak, nonatomic) IBOutlet UITextField *milesRanTextfield;
+@property (weak, nonatomic) IBOutlet UITextField *shoesWornTextfield;
+@property (weak, nonatomic) IBOutlet UITextField *dateOfRunTextfield;
+
 
 
 @end

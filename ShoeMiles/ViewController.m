@@ -8,12 +8,12 @@
 
 #import "ViewController.h"
 
+
+Shoes * shoe1;
+
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UITextField *milesRan;
-@property (weak, nonatomic) IBOutlet UITextField *shoesWorn;
-@property (weak, nonatomic) IBOutlet UITextField *dateOfRun;
-@property (weak, nonatomic) IBOutlet UIButton *submitButton;
+
 
 @end
 
@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    shoe1 = [[Shoes alloc] init];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -28,5 +29,21 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(IBAction)submitButton:(id)sender{
+    
+    shoe1.milesToAdd = [_milesRanTextfield.text floatValue];
+//    shoe1.shoeName = _shoesWornTextfield.text;
+//    shoe1.dateOfRun = _dateOfRunTextfield.text;
+    
+    NSLog(@"miles Ran Textfield %.2f\n", shoe1.milesToAdd);
+    
+//    NSLog(@"shoes worn %@", shoe1.shoeName);
+//    
+//    NSLog(@"submit button pressed");
+    
+    NSLog(@"submit button pressed");
+}
+
 
 @end
