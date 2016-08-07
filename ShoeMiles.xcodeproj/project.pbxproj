@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F475E0041D56C7EE0039781F /* Shoes.m in Sources */ = {isa = PBXBuildFile; fileRef = F475E0031D56C7EE0039781F /* Shoes.m */; };
 		F4F3302C1D56AF4400BD2D47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F3302B1D56AF4400BD2D47 /* main.m */; };
 		F4F3302F1D56AF4400BD2D47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F3302E1D56AF4400BD2D47 /* AppDelegate.m */; };
 		F4F330321D56AF4400BD2D47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F330311D56AF4400BD2D47 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F475E0021D56C7EE0039781F /* Shoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shoes.h; path = Model/Shoes.h; sourceTree = "<group>"; };
+		F475E0031D56C7EE0039781F /* Shoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shoes.m; path = Model/Shoes.m; sourceTree = "<group>"; };
 		F4F330271D56AF4400BD2D47 /* ShoeMiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoeMiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F3302B1D56AF4400BD2D47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4F3302D1D56AF4400BD2D47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F475E0051D56C7FE0039781F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F475E0021D56C7EE0039781F /* Shoes.h */,
+				F475E0031D56C7EE0039781F /* Shoes.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		F4F3301E1D56AF4400BD2D47 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +75,7 @@
 				F4F330301D56AF4400BD2D47 /* ViewController.h */,
 				F4F330311D56AF4400BD2D47 /* ViewController.m */,
 				F4F330331D56AF4400BD2D47 /* Main.storyboard */,
+				F475E0051D56C7FE0039781F /* Model */,
 				F4F330361D56AF4400BD2D47 /* Assets.xcassets */,
 				F4F330381D56AF4400BD2D47 /* LaunchScreen.storyboard */,
 				F4F3303B1D56AF4400BD2D47 /* Info.plist */,
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F475E0041D56C7EE0039781F /* Shoes.m in Sources */,
 				F4F330321D56AF4400BD2D47 /* ViewController.m in Sources */,
 				F4F3302F1D56AF4400BD2D47 /* AppDelegate.m in Sources */,
 				F4F3302C1D56AF4400BD2D47 /* main.m in Sources */,
@@ -301,6 +315,7 @@
 				F4F330401D56AF4400BD2D47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
